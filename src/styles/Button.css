@@ -1,0 +1,24 @@
+.btn-gold {
+  background: linear-gradient(90deg, #877510 0%, #4b3902 100%);
+  color: #1a1a1a;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
+}
+
+.btn-gold:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}

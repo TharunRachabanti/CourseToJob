@@ -1,0 +1,36 @@
+.job-guarantee-badge {
+  display: inline-block;
+  background: linear-gradient(45deg, #ffd700, #ffec8b, #ffd700);
+  background-size: 200% 200%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #b8860b;
+  box-shadow: 0 0 12px #ffd700;
+  cursor: default;
+  user-select: none;
+  animation: shine 3s linear infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.badge-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+    box-shadow: 0 0 12px #ffd700;
+  }
+  50% {
+    background-position: 100% 50%;
+    box-shadow: 0 0 24px #ffec8b;
+  }
+  100% {
+    background-position: 0% 50%;
+    box-shadow: 0 0 12px #ffd700;
+  }
+}

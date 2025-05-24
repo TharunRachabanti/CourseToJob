@@ -1,0 +1,176 @@
+.course-container1 {
+  padding: 40px;
+  text-align: center;
+  background-color: #e0f7fa; /* light cyan */
+  height: 907px; /* approx 20cm */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.course-title {
+  font-size: 2.5rem;
+  color: #1e3a8a;
+}
+
+.course-description {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.course-cards-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 20px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #1e3a8a #e0f7fa;
+}
+
+.course-cards-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.course-cards-container::-webkit-scrollbar-track {
+  background: #e0f7fa;
+}
+
+.course-cards-container::-webkit-scrollbar-thumb {
+  background-color: #1e3a8a;
+  border-radius: 4px;
+}
+
+.course-card {
+  min-width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  padding: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  background: #1e3a8a;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.live-badge {
+  background: #ff4d4d;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.badge-text {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-info {
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fees-label {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.original-price {
+  font-size: 1rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.discounted-price {
+  font-size: 1.2rem;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.know-more-btn {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.know-more-btn:hover {
+  background: #16307d;
+}
+
+.ribbon {
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  background: #ffd700;
+  color: #1e3a8a;
+  font-weight: bold;
+  padding: 5px 40px;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ribbon span {
+  font-size: 1.2rem;
+}

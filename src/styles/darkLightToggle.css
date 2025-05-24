@@ -1,0 +1,32 @@
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* background-color: #1e40af; */
+   background: linear-gradient(90deg, #79690e 0%, #4b3902 100%);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(30, 64, 175, 0.7);
+  user-select: none;
+  transition: background-color 0.3s ease;
+  z-index: 1100;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #3b82f6;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode a,
+.dark-mode button {
+  color: #e0e0e0;
+}
