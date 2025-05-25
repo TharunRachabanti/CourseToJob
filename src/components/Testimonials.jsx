@@ -5,23 +5,23 @@ const testimonials = [
   {
     avatar: '/assets/avatar1.jpg',
     quote: "CourseToJob helped me land my dream job in just 6 months!",
-    name: "Alice Johnson",
+    name: "Prasad",
     title: "Software Engineer",
-    companyLogo: "/assets/company1.png",
+    companyLogo: "/assets/tcs1.png",
   },
   {
     avatar: '/assets/avatar2.jpg',
     quote: "The mentorship and projects were invaluable for my career growth.",
-    name: "Bob Smith",
+    name: "Sai",
     title: "Data Analyst",
-    companyLogo: "/assets/company2.png",
+    companyLogo: "/assets/ac1.png",
   },
   {
-    avatar: '/assets/avatar3.png',
+    avatar: '/assets/av3.jpg',
     quote: "I highly recommend CourseToJob for anyone serious about tech careers.",
-    name: "Carol Lee",
+    name: "Venkat Reddy",
     title: "Cloud Architect",
-    companyLogo: "/assets/company3.png",
+    companyLogo: "/assets/ey1.png",
   },
 ];
 

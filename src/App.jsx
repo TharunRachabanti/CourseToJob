@@ -6,6 +6,8 @@ import StorytellingSteps from "./components/StorytellingSteps";
 import ProgressTracker from "./components/ProgressTracker";
 import DashboardSneakPeek from "./components/DashboardSneakPeek";
 import Testimonials from "./components/Testimonials";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 import JobGuaranteeBadge from "./components/JobGuaranteeBadge";
 import DarkLightToggle from "./components/DarkLightToggle";
 import Courses from "./components/courses";
@@ -16,6 +18,7 @@ import JavaCourse from "./components/JavaCourse";
 import PythonCourse from "./components/PythonCourse";
 import './App.css';
 import './styles/verticalStorytelling.css';
+import './styles/footer.css';
 
 function App() {
   return (
@@ -25,23 +28,12 @@ function App() {
         <>
             <Navbar />
             <Hero />
-            <DarkLightToggle />
-
-            
-            <div className="vertical-storytelling">
-              <Courses />
-            </div>
-
-
-
-   
-
-            <StorytellingSteps />
-              <JobGuaranteeBadge />
-            <ProgressTracker />
+             <StorytellingSteps />
+            <Courses />
             <DashboardSneakPeek />
             <Testimonials />
-            
+            <ContactUs />
+            <Footer />
           </>
         } />
         <Route path="/snowflake" element={<SnowflakeCourse />} />

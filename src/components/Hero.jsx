@@ -42,7 +42,7 @@ const Hero = () => {
 
   return (
     <section className="hero-section" id="hero">
-      <video className="hero-video" autoPlay muted loop playsInline>
+      <video className="hero-video" autoPlay muted loop playsInline playsinline webkit-playsinline>
         <source src="/assets/bgvd6.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>

@@ -1,7 +1,7 @@
 .hero-section {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -163,4 +163,45 @@
 .job-guarantee-btn:hover {
   background-color: white;
   color: #1e40af;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 80vh;
+    padding: 20px 10px;
+  }
+
+  .hero-video {
+    display: block;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .hero-tagline {
+    font-size: 1.8rem;
+    white-space: normal;
+    border: none;
+    animation: none;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .brand-scroll-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    min-height: 80px;
+  }
+
+  .brand-card {
+    width: 170px;
+    height: 100px;
+  }
 }

@@ -1,0 +1,104 @@
+.contact-us-section {
+  padding: 60px 40px;
+  background-color: #f0f9ff;
+  color: #1e293b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contact-us-section h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  color: #13025f;
+  text-shadow: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  border: 2px solid #021156;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(71, 84, 197, 0.4);
+  background-color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #334155;
+}
+
+.form-group label span {
+  color: #ff4d4d;
+  margin-left: 4px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  background-color: white;
+  color: #1e293b;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 8px #13025f;
+  border-color: #13025f;
+  background-color: white;
+  color: #1e293b;
+}
+
+.submit-btn {
+  background: #060041;
+  /* background: linear-gradient(90deg, #877510 0%, #4b3902 100%); */
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding: 14px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+  user-select: none;
+  border: 2px solid transparent;
+}
+
+.submit-btn:hover {
+  background-color: transparent;
+  border-color: #13025f;
+  color: #13025f;
+}
+
+.submit-btn:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
